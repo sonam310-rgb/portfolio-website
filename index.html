@@ -1,0 +1,107 @@
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #8fa3ad;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #d3d3d3;
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #666;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skills h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .skill-btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .email {
+            margin-top: 15px;
+            font-size: 15px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Profile Photo -->
+        <img src="photo.jpg" alt="Profile Photo" class="profile-img">
+
+        <!-- Title -->
+        <h1>Welcome to My Portfolio</h1>
+
+        <!-- Details -->
+        <p><b>Name:</b> Sonam Kumari</p>
+        <p><b>Branch:</b> ECE</p>
+        <p><b>Internship Task:</b> Task 1</p>
+
+        <!-- Skills -->
+        <div class="skills">
+            <h3>My Skills</h3>
+            <span class="skill-btn">HTML</span>
+            <span class="skill-btn">CSS</span>
+            <span class="skill-btn">JavaScript</span>
+            <span class="skill-btn">C++</span>
+        </div>
+
+        <!-- Email -->
+        <div class="email">
+            📧 sonamchoudhury818@gmail.com
+        </div>
+
+    </div>
+
+</body>
+</html>
